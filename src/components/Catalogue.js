@@ -48,11 +48,12 @@ const Catalogue = () => {
     <section className='m-4' id='catalogue'>
       <div className='text-center mt-10'>
         <h2
-          className='text-[#fe8d34] font-md text-4xl mb-3 md:mt-[10%] mt-[15%]'
+          className='text-[#fe8d34] font-md text-4xl md:mt-[10%] mt-[15%]'
           style={{ fontFamily: 'Josefin Sans, sans-serif' }}
         >
           Catalogue
         </h2>
+        <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-4' />
         <p
           className='font-semibold text-xl mb-7'
           style={{ fontFamily: 'Josefin Sans, sans-serif' }}
@@ -67,7 +68,7 @@ const Catalogue = () => {
         onChange={handleChange}
         style={{}}
       />
-      <Carousel responsive={responsive}>
+      <Carousel responsive={responsive} className='z-[1]'>
         {searchResults.map((catalogue) => (
           <Card
             className='md:ml-4 ml-2'

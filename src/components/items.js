@@ -308,4 +308,42 @@ export const teams = [
         imageUrl: 'https://media.licdn.com/dms/image/C5603AQFmz8p-lWFDDw/profile-displayphoto-shrink_100_100/0/1651135899847?e=1681948800&v=beta&t=7-lutb50pv0beDkvbx4QoJmjygB4Y4L7rUL2XRutqJs',
         url: 'https://www.linkedin.com/in/kachollom-dachung-jama-664354239'
     }
-]
+];
+// export const services = [
+//     {
+//         imageSrc: "./images/services-one-2.jpg",
+//         icon: "faTractor",
+//         title: "Agriculture Products",
+//         text: "I was impressed by the agrion services, not lorem ipsum is simply free text.",
+//         link: "agriculture-products.html",
+//     },
+//     {
+//         imageSrc: "./images/services-one-2.jpg",
+//         icon: "faFood",
+//         title: "Organic Products",
+//         text: "I was impressed by the agrion services, not lorem ipsum is simply free text.",
+//         link: "organic-products.html",
+//     },
+//     {
+//         imageSrc: "./images/services-one-2.jpg",
+//         icon: "faLeaf",
+//         title: "Fresh Vegetables",
+//         text: "I was impressed by the agrion services, not lorem ipsum is simply free text.",
+//         link: "fresh-vegetables.html",
+//     },
+//     {
+//         imageSrc: "./images/services-one-2.jpg",
+//         icon: "faDairy",
+//         title: "Dairy Products",
+//         text: "I was impressed by the agrion services, not lorem ipsum is simply free text.",
+//         link: "dairy-products.html",
+//     },
+//     {
+//         imageSrc: "./images/services-one-2.jpg",
+//         icon: "faBook",
+//         title: "Dairy Products",
+//         text: "I was impressed by the agrion services, not lorem ipsum is simply free text.",
+//         link: "dairy-products.html",
+//     }
+// ];
+
