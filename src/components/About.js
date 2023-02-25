@@ -31,7 +31,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-4' />
+      <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-[8%]' />
     </>
   );
 };
