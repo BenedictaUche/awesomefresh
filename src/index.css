@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-.section {
+.section__hero {
   background: url(/public/images/farmer1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -16,16 +16,38 @@
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
-.section-about {
-  background: url(/public/images/image1.jpg);
+.section__hero__one {
+  background: url(/public/images/hero1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   /* opacity: 0.5; */
-  height: 300px;
+  height: 500px;
   position: relative;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
+
+.section__hero__two {
+  background: url(/public/images/hero2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+  height: 500px;
+  position: relative;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+/* .section-about {
+  background: url(/public/images/image1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5; 
+  height: 300px;
+  position: relative;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+} */
 
 .box-icon-ruby {
   position: relative;
