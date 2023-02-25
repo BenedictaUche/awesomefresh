@@ -2,7 +2,7 @@ import 'animate.css';
 
 export function Partners() {
     return (
-        <section>
+        <section className='mx-7'>
             <div>
                 <h1 className='text-center text-[#fe8d34] font-bold text-4xl pt-[5%]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>Partners</h1>
                 <img src="./images/vine.png" alt="a vine" className='mx-auto block' />

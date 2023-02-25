@@ -1,50 +1,39 @@
-import React from 'react'
-import { Card, Container } from 'react-bootstrap'
-import 'animate.css';
+import React from "react";
 
 const About = () => {
   return (
-    <section className='md:mt-[10%] mt-[10%]' id='about-us'>
-      <Container>
-        <h1 className='uppercase font-bold text-4xl text-center mt-7 text-[#fe8d34]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>about us</h1>
-        <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-7' />
-        <p className='text-center mx-auto mt-2 mb-4 md:w-[70%]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-          Awesome Fresh is an agricultural aggregation, logistics, and cold chain company, serving as a bridge between local food processors and manufacturers and smallholders farmers.
-        </p>
-
-        <div className='flex flex-wrap justify-evenly'>
-          {/* <Card className='bg-[#48852f] px-4 py-4 w-full md:w-[32%] md:m-2 shadow-md mb-3 animate__animated animate__fadeInRight'>
-            <h3 className='text-[#fe8d34] uppercase text-center mb-2' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>our goal</h3>
-            <p className='text-white'>
-              Our goal is to bring innovation and
-              organization to agriculture and food
-              distribution while improving access to
-              fresh, nutritious food for growing urban
-              communities globally.
+    <>
+      <div className="py-12">
+        <div className="container mx-auto flex flex-col md:flex-row lg:flex-row items-center justify-between px-4">
+          <div className="w-full lg:w-1/2 lg:text-left" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
+            <h2 className="text-[#48852f] text-center text-4xl font-bold">
+              About Awesome Fresh
+            </h2>
+            <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-4' />
+            <p className="text-black font-semibold w-[90%] text-lg mb-8">
+              Awesome Fresh is an agricultural aggregation, logistics, and cold
+              chain company, serving as a bridge between local food processors and
+              manufacturers and smallholders farmers.<br /> <span className='text-[#fe8d34]'>Our mission </span>is to help the
+              world and its people live healthier and happier by making food
+              cheaper, fresher, nutritious, and accessible to the growing urban
+              communities of the world, bringing innovation and organization in
+              agriculture and food distribution.<br /> <span className='text-[#fe8d34]'>We envision </span>sustainably feeding
+              over 900 million people daily by 2050 and serving humanity for more
+              than 496 years to come.
             </p>
-          </Card> */}
-          <Card className='bg-[#48852f] px-4 py-4 w-full md:w-[32%] md:m-2 shadow-md mb-3'>
-            <h3 className='text-[#fe8d34] uppercase text-center mb-2' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>our mission</h3>
-            <p className='text-white'>
-              To help the world and its people live
-              healthier and happier by making food
-              cheaper, fresher, nutritious, and accessible
-              to the growing urban communities of the world,
-              bringing innovation and organization in agriculture
-              and food distribution.
-            </p>
-          </Card>
-          <Card className='bg-[#48852f] px-4 py-4 w-full md:w-[32%] md:m-2 shadow-md mb-3'>
-            <h3 className='text-[#fe8d34] uppercase text-center mb-2' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>our vision</h3>
-            <p className='text-white'>
-              Sustainably feed over 900 million people daily by
-              2050 and serve humanity for more than 496 years to come.
-            </p>
-          </Card>
+          </div>
+          <div className="w-full lg:w-1/2">
+            <img
+              src="./images/hero1.jpg"
+              alt="team"
+              className="rounded-full mx-auto lg:mx-0 md:w-[550px] md:h-[500px] object-cover mt-6"
+            />
+          </div>
         </div>
-      </Container>
-    </section>
-  )
-}
+      </div>
+      <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-4' />
+    </>
+  );
+};
 
-export default About
+export default About;

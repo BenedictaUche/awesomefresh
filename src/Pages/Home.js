@@ -1,5 +1,5 @@
 import About from "../components/About"
-import Bars from "../components/Bars"
+import Problem from "../components/Problem"
 import Catalogue from "../components/Catalogue"
 import Footer from "../components/Footer"
 import { Hero } from "../components/Hero"
@@ -14,11 +14,13 @@ export function Home() {
         <>
             <Navbar />
             <Hero />
-            <Bars />
             <About />
-            <Catalogue />
+            <Problem />
+
             <Services />
             <Metrics />
+            <Catalogue />
+
             <Team />
             <Partners />
             <Footer />

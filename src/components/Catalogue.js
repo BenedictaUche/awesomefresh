@@ -61,7 +61,7 @@ const Catalogue = () => {
           Look through our catalogue for our specialty
         </p>
       </div>
-      <input className='w-full md:w-1/2 md:ml-[66%] lg:w-1/3 py-2 px-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent mb-4'
+      <input className='w-full md:w-1/2 md:ml-[49%] lg:ml-[66%] lg:w-1/3 py-2 px-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent mb-4'
         type='text'
         placeholder='Search'
         value={searchTerm}

@@ -18,7 +18,7 @@ function Metric({ icon, number, text, delay }) {
     }, [number]);
 
     return (
-        <div className="w-full sm:w-1/2 md:w-1/4 p-4">
+        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 p-4">
             <div className="bg-white shadow-lg rounded-lg px-4 py-6 text-center">
                 <div className="mx-auto text-gray-600 mb-4">
                     <FontAwesomeIcon icon={icon} className="text-4xl text-[#fe8d34]" />
