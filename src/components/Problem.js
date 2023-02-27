@@ -1,35 +1,47 @@
-const Problem = () => {
-  return (
-    <>
-      <section className='mt-10 mx-7 md:mx-[7%]'>
-        <div className='flex flex-col md:flex-row justify-between'>
-          <div className='mb-5 md:mb-0 md:w-1/2 md:mr-5'>
-            <img src="./images/problempic1.jpg" alt='the problem' className='w-[640px] md:h-[500px] object-cover rounded-2xl' />
-          </div>
-          <div className='w-full md:w-1/2'>
-            <h2 className='text-2xl md:text-4xl font-bold mb-3 md:mb-7 capitalize' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>Problems <span className="text-[#48852f]">we</span> are trying to solve</h2>
-            <p className='text-slate-400 text-base md:text-lg font-semibold mb-5'>We are addressing the problem of continuous raw material availability for local food processors, as well as the challenge of low yield and access to high-quality inputs, price information, and market access for smallholder farmers.</p>
-            <p className='text-[#48852f] text-lg md:text-xl font-bold' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>We exist to bring innovation and organization into agriculture and food distribution, ultimately feeding 900 million people daily by 2050.</p>
-          </div>
-        </div>
-      </section>
-      <section className='mx-7 md:mx-5 mt-5'>
-        <div className='flex flex-col md:flex-row justify-between'>
-          <div className='mb-5 md:mb-0 md:w-1/2 md:ml-5'>
-            <h2 className='text-2xl md:text-4xl font-bold mb-3 md:mb-7 capitalize' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>our <span className="text-[#48852f]">solution</span></h2>
-            <ul className='text-gray-400 md:w-[70%] font-bold text-base list-disc list-inside md:text-lg' >
-              <li className='mb-3'>Smart aggregation and storage facility for smallholder farmers via out-grower scheme.</li>
-              <li className='mb-3'>USSD solutions that provide farmers with market intelligence and valuable resources and for data collection.</li>
-              <li>Investable Opportunity to help young Africans own, monitor and invest in farms from their mobile devices.</li>
-            </ul>
-          </div>
-          <div className='md:w-1/2'>
-            <img src="./images/happygirl.jpg" alt='the problem' className='w-full md:h-full object-cover rounded-2xl' />
-          </div>
-        </div>
-      </section>
-    </>
-  )
-}
+import React from 'react';
+import { ProblemCard } from '../components/ProblemCard'
 
-export default Problem;
+export function Problem() {
+    return (
+        <section className=" py-20 bg-[#f8f6f1]">
+            <div className="" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
+                <div>
+                    <h1 class='text-center mx-auto font-bold text-4xl md:text-6xl mt-10 md:w-[70%] text-[#48852f]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>"The world will need more food in the next 50 years than it has in the past 500 years."</h1>
+                    <p className='text-center text-2xl font-bold mt-10 mb-[8%] text-[#48852f]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>- FAO</p>
+                </div>
+                <h2 className="text-4xl text-center font-bold" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>The Problems</h2>
+                <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-10' />
+                <div className="flex flex-wrap justify-center items-center gap-8">
+                    <ProblemCard
+                        image='https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
+                        title="Raw Material Inconsistency"
+                        text="Local processors and manufacturers in Africa face the challenge of ensuring a steady supply of raw materials for their operations."
+                    />
+                    <ProblemCard
+                        image='https://media.istockphoto.com/id/1438708688/photo/aerial-view-of-straw-bales-on-farm-fields.jpg?b=1&s=170667a&w=0&k=20&c=IHRHu2ouzuDbsOzfKbe_JvB1R0UfyC4IdqMz2Pv1V8g='
+                        title="Low Agricultural Yields"
+                        text="Due to a lack of access to quality information, inputs, and finance for their farming activities, 38 million Nigerian farmers have one of the lowest agricultural yields per hectare in the world."
+                    />
+                    <ProblemCard
+                        image='./images/problempic1.jpg'
+                        title="Lack of Market Access"
+                        text="The most significant challenge that smallholder farmers face across Africa is a lack of access to profitable markets."
+                    />
+                    <ProblemCard
+                        image='https://media.istockphoto.com/id/1423496853/photo/water-pipe-break-leaking-from-hole-in-a-hose-connection-joint-of-plastic-pipes-water-supply.jpg?b=1&s=170667a&w=0&k=20&c=HTKxOei9yK5wHeT0EIIjdXJlJDgoWHgOP-bezaL3N1c='
+                        title="Fragmented Production"
+                        text="Smallholder farmers dominate food production in Nigeria, making aggregation for local processing difficult."
+                    />
+                    <ProblemCard
+                        image='https://images.unsplash.com/photo-1621460249485-4e4f92c9de5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFncmljdWx0dXJhbCUyMHBvc3QlMjBoYXJ2ZXN0JTIwbG9zc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+                        title="Post-Harvest Loss"
+                        text="Poor post-harvest handling and storage operations result in the loss of approximately $4 billion in food products each year."
+                    />
+                </div>
+            </div>
+        </section>
+    );
+};
+
+
+

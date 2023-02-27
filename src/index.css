@@ -49,7 +49,7 @@
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 } */
 
-.box-icon-ruby {
+/* .box-icon-ruby {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -100,7 +100,7 @@
   flex: 0 1 100%;
   /* margin-bottom: -30px;
   margin-left: -20px; */
-}
+/* }
 
 .box-icon-ruby-body>* {
   margin-bottom: 30px;
@@ -128,25 +128,13 @@
 [class^="linearicons-"],
 [class*=" linearicons-"] {
   font-family: 'Linearicons' !important;
-  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  /* line-height: 1; */
   -webkit-font-smoothing: antialiased;
-  /* -moz-osx-font-smoothing: grayscale; */
-}
 
-/* .linearicons-leaf:before {
-  content: "\eb2d";
 } */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 /* For the services section */
 .services-one:before {

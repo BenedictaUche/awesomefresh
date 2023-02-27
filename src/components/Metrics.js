@@ -32,8 +32,9 @@ function Metric({ icon, number, text, delay }) {
 
 export function Metrics() {
     return (
-        <div className="container mx-auto">
-            <div className="flex flex-wrap -mx-4 animate__animated animate__bounceInRight animate__delay-3s pt-[7%]">
+        <div className="mx-auto bg-[#f8f6f1]">
+            <h1 className="font-bold text-black text-center text-3xl pt-[7%]">Key Figures</h1>
+            <div className="flex flex-wrap mx-4 animate__animated animate__bounceInRight animate__delay-3s ">
                 <Metric icon={faDollarSign} number={672} text="Revenue (in millions) in 2022" delay={0} />
                 <Metric icon={faUserFriends} number={2500} text="Farmers engaged" delay={300} />
                 <Metric icon={faCubes} number={20000} text="MT of agricultural produce aggregated" delay={500} />
