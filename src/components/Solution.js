@@ -45,50 +45,52 @@ let solutions = [
 export function Solution() {
     const [hoveredIndex, setHoveredIndex] = useState(-1);
     return (
-        <section className="services-one relative py-[10%] mt-10 " style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-            <div classNamme='services__bg mb-[3%]'></div>
-            <div>
-                <div className='mb-7'>
-                    <h1 className='text-center font-bold text-4xl'>Our Solution</h1>
-                    <img src="./images/vine.png" alt="a vine" className='mx-auto block' />
-                </div>
-                <div className="flex flex-wrap justify-center">
-                    {solutions.map((solution, index) => (
-                        <div
-                            className="w-64 m-4 border-2 border-gray-300 rounded-lg overflow-hidden shadow-md hover:border-[#fe8d34] hover:shadow-lg transform hover:-translate-y-1 transition duration-200 ease-in-out"
-                            key={index}
-                            onMouseEnter={() => setHoveredIndex(index)}
-                            onMouseLeave={() => setHoveredIndex(-1)}
-                        >
-                            <div className="relative">
-                                <Card.Img
-                                    variant="top"
-                                    src={solution.imageSrc}
-                                    alt=""
-                                    className="h-64 w-full object-cover"
-                                />
-                                <div
-                                    className={`${hoveredIndex === index ? "opacity-100" : "opacity-0"
-                                        } transition duration-200 ease-in-out absolute inset-0 flex justify-center items-center bg-gray-600 bg-opacity-50`}
-                                >
-                                    <FontAwesomeIcon
-                                        icon={solution.icon}
-                                        className="text-white text-5xl"
+        <div>
+            {/* <div className='relative'><img src='./images/services-section.png' alt='a service' className='animate-dance' /></div> */}
+            <section className="services-one relative py-[8%]" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
+                <div>
+                    <div className='mb-7'>
+                        <h1 className='text-center font-bold text-4xl'>Our Solution</h1>
+                        <img src="./images/vine.png" alt="a vine" className='mx-auto block' />
+                    </div>
+                    <div className="flex flex-wrap justify-center">
+                        {solutions.map((solution, index) => (
+                            <div
+                                className="w-64 m-4 border-2 border-gray-300 rounded-lg overflow-hidden shadow-md hover:border-[#fe8d34] hover:shadow-lg transform hover:-translate-y-1 transition duration-200 ease-in-out"
+                                key={index}
+                                onMouseEnter={() => setHoveredIndex(index)}
+                                onMouseLeave={() => setHoveredIndex(-1)}
+                            >
+                                <div className="relative">
+                                    <Card.Img
+                                        variant="top"
+                                        src={solution.imageSrc}
+                                        alt=""
+                                        className="h-64 w-full object-cover"
                                     />
+                                    <div
+                                        className={`${hoveredIndex === index ? "opacity-100" : "opacity-0"
+                                            } transition duration-200 ease-in-out absolute inset-0 flex justify-center items-center bg-gray-600 bg-opacity-50`}
+                                    >
+                                        <FontAwesomeIcon
+                                            icon={solution.icon}
+                                            className="text-white text-5xl"
+                                        />
+                                    </div>
                                 </div>
+                                <Card.Body className='bg-white'>
+                                    <Card.Title className='text-center'>
+                                        <a href={solution.link} className='hover:text-black' style={{ textDecoration: 'none' }}>{solution.title}</a>
+                                    </Card.Title>
+                                    <Card.Text className="services-one__text text-center" >
+                                        {solution.text}
+                                    </Card.Text>
+                                </Card.Body>
                             </div>
-                            <Card.Body className='bg-white'>
-                                <Card.Title className='text-center'>
-                                    <a href={solution.link} className='hover:text-black' style={{ textDecoration: 'none' }}>{solution.title}</a>
-                                </Card.Title>
-                                <Card.Text className="services-one__text text-center" >
-                                    {solution.text}
-                                </Card.Text>
-                            </Card.Body>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 }
