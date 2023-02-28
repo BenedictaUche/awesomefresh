@@ -17,10 +17,10 @@ export function Home() {
             <Hero />
             <Problem />
             <Solution />
-            <Whoweare />
             <Partners />
             <Metrics />
             <Catalogue />
+            <Whoweare />
             <Team />
             <Footer />
         </>
