@@ -21,8 +21,8 @@ export function Team() {
               <h3 className="text-lg font-bold text-orange-500 mb-1 capitalize">
                 {team.name}
               </h3>
-              <p className="text-sm mb-2 capitalize">{team.role}</p>
-              <a href={team.url} target="_blank" rel='noreferrer' className="text-sm text-blue-600 cursor-pointer pb-2" style={{ textDecoration: 'none' }}>
+              <p className="text-sm mb-2 capitalize block mx-auto">{team.role}</p>
+              <a href={team.url} target="_blank" rel='noreferrer' className="text-sm text-blue-600 cursor-pointer pb-2 " style={{ textDecoration: 'none' }}>
                 LinkedIn
               </a>
             </Card>

@@ -43,13 +43,13 @@ export const catalogues = [
     },
     {
         name: 'Cauliflower',
-        imageUrl: 'https://th.bing.com/th/id/OIP.hdTzzenCskr_xTNqz6iVWwHaDt?w=304&h=175&c=7&r=0&o=5&pid=1.7',
+        imageUrl: 'https://media.istockphoto.com/id/90634594/photo/close-up-of-several-heads-of-cauliflower.jpg?b=1&s=170667a&w=0&k=20&c=lZdH2qLgjUMEhY9ZakT2lJOHG3MOSYtPF3JsA2EBN_I=',
         description: 'A bag of Strawberries',
         price: 13500
     },
     {
         name: 'Curly Kale',
-        imageUrl: 'https://th.bing.com/th/id/OIP.SZ9MC6FSHqtyn-IBDEP6DgHaE5?w=275&h=182&c=7&r=0&o=5&pid=1.7',
+        imageUrl: 'https://media.istockphoto.com/id/1415068740/photo/green-leafy-kale-vegetable-background.jpg?b=1&s=170667a&w=0&k=20&c=KivxjJ6S_TPAFtrUHGcB0hXhSGQyVfTt2TbmOsvJuEE=',
         description: 'A bag of Strawberries',
         price: 13500
     },
@@ -61,7 +61,7 @@ export const catalogues = [
     },
     {
         name: 'Tomatoes',
-        imageUrl: 'https://th.bing.com/th/id/OIP.1BVztq9e0Cy-ovkgO8b45gHaDV?w=310&h=157&c=7&r=0&o=5&pid=1.7',
+        imageUrl: 'https://images.unsplash.com/photo-1594057687713-5fd14eed1c17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dG9tYXRvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
         description: 'A bag of Strawberries',
         price: 13500
     },
@@ -73,7 +73,7 @@ export const catalogues = [
     },
     {
         name: 'Celery',
-        imageUrl: 'https://th.bing.com/th/id/OIP.85Loye3p01Sw8vDVyPPxcQHaHf?w=177&h=180&c=7&r=0&o=5&pid=1.7',
+        imageUrl: 'https://media.istockphoto.com/id/119540472/photo/celery.jpg?b=1&s=170667a&w=0&k=20&c=YeqS1cJQ4DuFkapgaw1_sQvRPxjwb95XlQEMNhZkBD8=',
         description: 'A bag of Strawberries',
         price: 13500
     },
@@ -187,13 +187,13 @@ export const catalogues = [
     },
     {
         name: 'Mint',
-        imageUrl: 'https://th.bing.com/th/id/OIP.CqbEHWk8OO6H5d0BuwxYQAHaEK?w=237&h=180&c=7&r=0&o=5&pid=1.7',
+        imageUrl: 'https://media.istockphoto.com/id/951044634/photo/fresh-green-mint-plants-in-growth-at-field.jpg?b=1&s=170667a&w=0&k=20&c=6lWAFQIAHPlc7Z8eFCdlkQhuOZJYxiksMBPta6b5BwA=',
         description: 'A bag of Strawberries',
         price: 13500
     },
     {
         name: 'Chilli',
-        imageUrl: 'https://th.bing.com/th/id/OIP.vuMj0zk3RjK6_WFb2AxVwgHaDq?w=322&h=173&c=7&r=0&o=5&pid=1.7',
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1675864033264-cb9db758422d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpbGxpJTIwcGVwcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
         description: 'A bag of Strawberries',
         price: 13500
     },
@@ -286,7 +286,7 @@ export const teams = [
     },
     {
         name: 'ogunbiyi toluwani',
-        role: 'social media manager',
+        role: 'marketing manager',
         imageUrl: './images/tolu.jpeg',
         url: 'https://www.linkedin.com/in/toluwani-ogunbiyi-215349168'
     },

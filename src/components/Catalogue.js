@@ -55,7 +55,7 @@ const Catalogue = () => {
         </h2>
         <img src="./images/vine.png" alt="a vine" className='mx-auto block mb-4' />
         <p
-          className='font-semibold text-xl mb-7'
+          className='font-semibold text-xl mb-7 block mx-auto'
           style={{ fontFamily: 'Josefin Sans, sans-serif' }}
         >
           Look through our catalogue for our specialty
@@ -84,7 +84,7 @@ const Catalogue = () => {
               <div className=' py-3'>
                 <h2 className='text-lg font-bold text-[#fe8d34] mb-3' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>{catalogue.name}</h2>
                 {/* <p className='text-md font-light text-slate-500'>{formatCurrency(catalogue.price)}</p> */}
-                <a href='/'><Button className='text-white bg-[#48852f] border-0 hover:bg-[#fe8d34]'
+                <a href='https://forms.gle/9FMD75cAT66dwp6h8'><Button className='text-white bg-[#48852f] border-0 hover:bg-[#fe8d34]'
                   style={{
                     transition: 'all 300ms ease-in-out'
                   }}>

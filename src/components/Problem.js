@@ -4,10 +4,10 @@ import { ProblemCard } from '../components/ProblemCard'
 export function Problem() {
     return (
         <section className=" py-20">
-            <div className="" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
+            <div className="block mx-auto" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
                 <div className='mx-4'>
                     <h1 class='text-center mx-auto font-bold text-4xl md:text-6xl mt-10 md:w-[70%] text-[#48852f]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>"The world will need more food in the next 50 years than it has in the past 500 years."</h1>
-                    <p className='text-center text-2xl font-bold mt-10 mb-[8%] text-[#48852f]' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>- FAO</p>
+                    <p className='text-center text-2xl font-bold mt-10 mb-[8%] text-[#48852f] block mx-auto' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>- FAO</p>
                 </div>
                 <div className='relative'><img src='./images/services-section.png' alt='a service' className='animate-dance' /></div>
                 <div className='problem__section bg-[#f1efe9] py-6'>

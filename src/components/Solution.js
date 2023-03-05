@@ -82,7 +82,7 @@ export function Solution() {
                                     <Card.Title className='text-center'>
                                         <a href={solution.link} className='hover:text-black' style={{ textDecoration: 'none' }}>{solution.title}</a>
                                     </Card.Title>
-                                    <Card.Text className="services-one__text text-center" >
+                                    <Card.Text className="services-one__text text-center block mx-auto" >
                                         {solution.text}
                                     </Card.Text>
                                 </Card.Body>

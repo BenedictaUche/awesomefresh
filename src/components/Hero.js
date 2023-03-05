@@ -35,7 +35,7 @@ export function Hero() {
                                     <span>Awesome Fresh</span>
                                 </h1>
                                 <p className='text-white text-md mb-6 animate__animated animate__fadeInLeft md:w-[50%]' style={{ lineHeight: '1.875', letterSpacing: '2px' }}>We serve as a bridge between local food processors and manufacturers and smallholders farmers.</p>
-                                <a href="/"><Button className='md:w-[20%] bg-[#48852f] border-0 hover:bg-[#48852f] hover:opacity-[0.7] duration-500 py-3 uppercase animate__animated animate__slideInUp' style={{ transition: 'all 300ms ease-in-out' }}>Read more</Button></a>
+                                <a href="https://instagram.com/awesomefreshng?igshid=YmMyMTA2M2Y"><Button className='md:w-[20%] bg-[#48852f] border-0 hover:bg-[#48852f] hover:opacity-[0.7] duration-500 py-3 uppercase animate__animated animate__slideInUp' style={{ transition: 'all 300ms ease-in-out' }}>Read more</Button></a>
                             </div>
 
                         </Container>
@@ -56,7 +56,7 @@ export function Hero() {
                                     <span>SMART AGGREGATION</span>
                                 </h1>
                                 <p className='text-black text-md mb-6 animate__animated animate__fadeInLeft md:w-[50%]' style={{ lineHeight: '1.875', letterSpacing: '2px' }}>We serve as a bridge between local food processors and manufacturers and smallholders farmers.</p>
-                                <a href="/"><Button className='md:w-[20%] bg-[#48852f] border-0 hover:bg-[#48852f] hover:opacity-[0.7] duration-500 py-3 uppercase animate__animated animate__slideInUp shadow-md' style={{ transition: 'all 300ms ease-in-out' }}>Read more</Button></a>
+                                <a href="https://instagram.com/awesomefreshng?igshid=YmMyMTA2M2Y"><Button className='md:w-[20%] bg-[#48852f] border-0 hover:bg-[#48852f] hover:opacity-[0.7] duration-500 py-3 uppercase animate__animated animate__slideInUp shadow-md' style={{ transition: 'all 300ms ease-in-out' }}>Read more</Button></a>
                             </div>
 
                         </Container>
@@ -77,7 +77,7 @@ export function Hero() {
                                     <span>Sustainable and inclusive agriculture</span>
                                 </h1>
                                 <p className='text-white text-md mb-6 animate__animated animate__fadeInLeft md:w-[70%]' style={{ lineHeight: '1.875', letterSpacing: '2px' }}>We provide alternatives to reliance on importation by supporting local food production and distribution</p>
-                                <a href="/"><Button className='md:w-[16%] bg-[#fe8d34] border-0 hover:bg-[#fe8d34] hover:opacity-[0.7] duration-500 py-3 shadow-md uppercase animate__animated animate__slideInUp' style={{ transition: 'all 300ms ease-in-out' }}>Read more</Button></a>
+                                <a href="https://instagram.com/awesomefreshng?igshid=YmMyMTA2M2Y"><Button className='md:w-[16%] bg-[#fe8d34] border-0 hover:bg-[#fe8d34] hover:opacity-[0.7] duration-500 py-3 shadow-md uppercase animate__animated animate__slideInUp' style={{ transition: 'all 300ms ease-in-out' }}>Read more</Button></a>
                             </div>
                         </Container>
                     </div>

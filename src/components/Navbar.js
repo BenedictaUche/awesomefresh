@@ -19,7 +19,7 @@ export function Navbar() {
     let [open, setOpen] = useState(false);
 
     return (
-        <div sticky='top' className='shadow-lg w-full sticky top-0 left-0 z-10 '>
+        <div sticky='top' className='shadow-lg w-full sticky top-0 left-0 z-10 ' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
             <div className='md:flex items-center justify-between bg-white py-2 md:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
                     <span>
@@ -38,7 +38,7 @@ export function Navbar() {
                             </li>
                         ))
                     }
-                    <a href='/'><Button>Make order</Button></a>
+                    <a href='https://forms.gle/9FMD75cAT66dwp6h8'><Button>Make order</Button></a>
                 </ul>
             </div>
         </div>

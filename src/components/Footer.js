@@ -60,76 +60,11 @@ const Footer = () => {
                         <li><a href='/'><FontAwesomeIcon icon={faFacebookF} /></a></li>
                         <li className='ml-3'><a href='/'><FontAwesomeIcon icon={faTwitter} /></a></li>
                         <li className='ml-3'><a href='/'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                        <li className='ml-3'><a href='/'><FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <li className='ml-3'><a href='https://instagram.com/awesomefreshng?igshid=YmMyMTA2M2Y=' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faInstagram} /></a></li>
                     </ul>
                 </div>
             </div>
 
-            {/* <div className="md:w-1/3">
-            <h2 className="mb-4 text-2xl font-bold text-white md:mt-[20%] mt-8" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>Contact Us</h2>
-
-            <div className="flex flex-wrap mb-4">
-                <div className="w-8 h-8 mr-2">
-                    <FontAwesomeIcon icon={faLocationArrow} size="2x" className="text-[#48852f]" />
-                </div>
-
-                <div style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-                    <h3 className="mb-2 text-lg font-bold text-white">Location</h3>
-                    <ul className="text-sm">
-                        <li>72, Yakubu Gowon Way, Zaramangada Jos</li>
-                        <li>Plateau-Nigeria</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div className="flex flex-wrap mb-4" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-                <div className="w-8 h-8 mr-2">
-                    <FontAwesomeIcon icon={faMobilePhone} size="2x" className="text-[#48852f]" />
-                </div>
-
-                <div>
-                    <h3 className="mb-2 text-lg font-bold text-white">Call Us</h3>
-                    <ul className="text-sm">
-                        <li>+2348062753737</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div className="flex flex-wrap mb-4" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-                <div className="w-8 h-8 mr-2">
-                    <FontAwesomeIcon icon={faEnvelope} size="2x" className="text-[#48852f]" />
-                </div>
-
-                <div>
-                    <h3 className="mb-2 text-lg font-bold text-white">Email Us</h3>
-                    <ul className="text-sm">
-                        <li>adetiloye@awesomefresh.ng</li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
-
-            {/* <div className="flex flex-col justify-center md:w-1/3 md:mt-[-10%] mt-10">
-            <h2 className="mb-4 text-2xl font-bold text-white">Follow Us</h2>
-            
-            <div className="flex justify-between text-[#48852f]">
-                <div className="w-8 h-8 mr-2">
-                    <a href='twittwe.com'><FontAwesomeIcon icon={faTwitter} size="2x" className="" /></a>
-                </div>
-
-                <div className="w-8 h-8 mr-2">
-                <a href='twittwe.com'><FontAwesomeIcon icon={faLinkedin} size="2x" className="" /></a>
-                </div>
-
-                <div className="w-8 h-8 mr-2">
-                <a href='twittwe.com'><FontAwesomeIcon icon={faFacebook} size="2x" className="" /></a>
-                </div>
-
-                <div className="w-8 h-8 mr-2">
-                <a href='twittwe.com'><FontAwesomeIcon icon={faInstagram} size="2x" className="" /></a>
-                </div>
-            </div>
-        </div> */}
         </footer>
     )
 };
