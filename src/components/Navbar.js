@@ -13,7 +13,7 @@ export function Navbar() {
         { name: "HOME", link: '/' },
         { name: "ABOUT", link: '#about-us' },
         { name: "CATALOGUE", link: '#catalogue' },
-        { name: "SERVICES", link: '/' },
+        { name: "SERVICES", link: '#solution' },
         { name: "CONTACT", link: '#footer' },
     ];
     let [open, setOpen] = useState(false);

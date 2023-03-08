@@ -45,7 +45,7 @@ let solutions = [
 export function Solution() {
     const [hoveredIndex, setHoveredIndex] = useState(-1);
     return (
-        <div>
+        <div id='solution'>
             {/* <div className='relative'><img src='./images/services-section.png' alt='a service' className='animate-dance' /></div> */}
             <section className="services-one relative py-[8%]" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
                 <div>

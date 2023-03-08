@@ -3,7 +3,7 @@ import React from "react";
 
 const Whoweare = () => {
   return (
-    <div className="mt-6">
+    <div className="mt-6" id='about-us'>
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 whoweare">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="lg:flex-shrink-0">
